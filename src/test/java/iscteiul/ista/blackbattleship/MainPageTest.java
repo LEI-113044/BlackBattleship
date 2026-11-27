@@ -64,6 +64,7 @@ public class MainPageTest {
         mainPage.seeDeveloperToolsButton.click();
         mainPage.findYourToolsButton.click();
 
+
         assertTrue(driver.getCurrentUrl().contains("/products/"));
         assertEquals("All Developer Tools and Products by JetBrains", driver.getTitle());
     }
